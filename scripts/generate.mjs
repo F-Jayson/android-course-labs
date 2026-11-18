@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 
 const OWNER  = process.env.OWNER || process.env.GITHUB_REPOSITORY_OWNER;
-const TOPIC  = process.env.TOPIC || 'android-lab';
+const TOPIC  = process.env.TOPIC || 'android-labs';
 const TOKEN  = process.env.GH_TOKEN;
 
 const headers = {

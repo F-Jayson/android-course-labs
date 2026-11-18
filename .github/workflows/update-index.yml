@@ -25,7 +25,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
-          TOPIC: android-lab
+          TOPIC: android-labs
         run: node scripts/generate.mjs
 
       - name: Commit
